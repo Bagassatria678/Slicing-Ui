@@ -1,0 +1,77 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .header {
+    background-color: #3c1d1d;
+  }
+  
+  .header a {
+    color: #d3b8ae;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25rem;
+  }
+  
+  .header a:hover {
+    color: #ffffff;
+  }
+  
+  .hero {
+    background-image: url('https://eatdrinkflash.co.uk/wp-content/uploads/2021/06/DSC00807-scaled.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+  }
+  
+  .hero-text span {
+    margin: 0 10px;
+  }
+  
+  .hero-text .drink {
+    color: #b22222;
+  }
+  
+  .content {
+    background-color: #3c1d1d;
+    color: #d3b8ae;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .content h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .content p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  
+  .content button {
+    background-color: #4a4a4a;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .content button:hover {
+    background-color: #6a6a6a;
+  }
+  
+ 
